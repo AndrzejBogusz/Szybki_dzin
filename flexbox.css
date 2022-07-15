@@ -1,0 +1,107 @@
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.headSymbol{
+    width: 40px;
+    padding-top: 4%;
+}
+
+.flexItem1{
+    flex: 1;
+    order: 1;
+    align-self: auto;
+    background-color: rgba(69, 170, 170, 0.623);
+    border-radius: 15px;
+    padding: 10px;
+    transition: transform .2s;
+}
+
+.flexItem1:hover{
+    transform: scale(1.1);
+}
+
+.flexItem2{
+    flex: 1;
+    order: 2;
+    align-self: auto;
+    background-color: rgba(179, 76, 226, 0.623);
+    border-radius: 15px;
+    padding: 10px;
+    transition: transform .2s;
+}
+
+.flexItem2:hover{
+    transform: scale(1.1);
+}
+
+.flexItem3{
+    flex: 1;
+    order: 3;
+    align-self: auto;
+    background-color: rgba(105, 72, 255, 0.623);
+    border-radius: 15px;
+    padding: 10px;
+    transition: transform .2s;
+}
+
+.flexItem3:hover{
+    transform: scale(1.1);
+}
+
+.flexContainer2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.flexContainer2 p:before{
+    content: '"';
+    color: gold;
+}
+
+.flexContainer2 p{
+    color: chartreuse;
+}
+
+.flexContainer2 p::after{
+    content: '"';
+    color: gold;
+    }
+
+.flexItem4{
+    flex: 1;
+    order: 1;
+    align-self: auto;
+    background-color: rgba(161, 80, 66, 0.623);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.flexItem4 img{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+.flexItem5{
+    flex: 1;
+    order: 2;
+    align-self: auto;
+    background-color: rgba(75, 90, 155, 0.623);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.flexItem5 img{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}

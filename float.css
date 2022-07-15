@@ -1,0 +1,15 @@
+.carpet_left{
+    float: left;
+    transform:scaleX(-1);
+    width: 100%;
+}
+
+.carpet_right{
+    float: right;
+    width: 100%;
+}
+
+.floatColumn2 img{
+    float: left;
+    width: 200px;
+}
